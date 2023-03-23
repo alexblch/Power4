@@ -8,7 +8,3 @@ Welcome to my own game, here are the instructions to play without any problem to
 * go to the directory file
 * type the command "*g++ main.cpp -o prog*" who compiles the C++ program
 * type "*./prog*" and just follow instructions to play against the AI
-
-## About Git
-
-git init
