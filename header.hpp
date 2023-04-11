@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 class Power
 {
 public:
@@ -205,6 +206,7 @@ int **Power::pose(int columns, int **tab, int player)
                     }
                 }
             }
+            inc = 0;
         }
         for (int i = 0; i < 7; i++)
         {
@@ -289,8 +291,8 @@ int **Power::pose(int columns, int **tab, int player)
                         return tab;
                     }
                 }
-                inc = 0;
             }
+            inc = 0;
         }
         int j = 0;
         while (tab[5 - j][columns] != 0)
